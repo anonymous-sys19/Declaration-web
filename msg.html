@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>😍Forever My Love💕</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/msj.css" />
+</head>
+
+<body class="bodyimg" onload="onloaded()">
+  <!-- Aqui en el Div Se Carga el corazon -->
+  <div id="tag" class="corazon heart" data-bs-toggle="modal" data-bs-target="#exampleModal">   </div>
+
+
+
+  <!--  -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <!-- Aqui se carga el resto de la pagina-->
+          <div class="container" id="container">
+            <div id="Ventana" class="">
+              <p id="parras">
+                Las palabras se las lleva el viento. Así que te las escribo, para que
+                nunca se te olviden.
+              </p>
+
+              <p id="parras">
+                Me resultaría imposible el solo proponerme no quererte. Tus millones
+                de virtudes hacen que no quererte sea un pecado .
+              </p>
+
+              <p id="parras">
+                Te vistes con belleza la belleza ya está en ti lloro al verte me
+                emociono son sentimientos son ganas de quererte aunque ya te quiero.
+              </p>
+              <p id="parras">
+                Gracias por llegar ami vida, te pido que jamas te vallas de eya, que
+                me siento feliz de averte Conosido y tenerte enmi vida. Te Quiero
+                Ashley Nathalia ERES SUPER ESPECIAL.
+              </p>
+            </div>
+
+
+            <div id="myPREF">
+              <p id="parrafoPREF">
+                <icon id="icon1"> &#x2661; </icon> PORFAVOR NUNCA TE VALLAS DE MI VIDA
+                <icon id="icon2"> &#x2661;</icon>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModall"
+            data-bs-whatever="@getbootstrap">Responder</button>
+          
+        </div>
+        <!-- Fin Modell  -->
+      </div>
+
+      <!--  -->
+        
+    </div>
+  </div>
+  </div>
+  <!--  -->
+<!-- Init to Modall -->
+<div class="modal fade" id="exampleModall" tabindex="-2" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <form >
+        <div class="mb-3">
+          <label for="message-text" class="col-form-label">Message:</label>
+          <textarea class="form-control"  id="message-text"></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary" onclick="msgSend()" id="sendMsg">Send message</button>
+    </div>
+  </div>
+</div>
+</div>
+<!--  -->
+
+  <script src="js/msg.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
